@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naim Formulir</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulir</h1>
+      <table>
+        <tr>
+          <td><label for="username_id">Username</label></td>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              name="username_input"
+              placeholder="masukkan username"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email_id">Email</label></td>
+          <td>:</td>
+          <td>
+            <input
+              type="email"
+              name="email_input"
+              placeholder="masukkan email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pass_id">Password</label></td>
+          <td>:</td>
+          <td>
+            <input
+              type="password"
+              name="pass_input"
+              placeholder="masukkan password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender_id">Jenis Kelamin</label></td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="jenis_kelamin" id="pria" value="Pria" />
+            <label for="pria">Pria</label>
+            <input
+              type="radio"
+              name="jenis_kelamin"
+              id="wanita"
+              value="Wanita"
+            />
+            <label for="wanita">Wanita</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hobi_id"></label></td>
+          <td>:</td>
+          <td>
+            <select name="hobi_input" id="hobi_id">
+              <option value="" selected disabled>------Pilih------</option>
+              <option value="olahraga">Olahraga</option>
+              <option value="bermain game">Bermain Game</option>
+              <option value="membaca">Membaca</option>
+              <option value="jajan">Jajan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="komen">Komentar</label>
+          </td>
+          <td>:</td>
+          <td>
+            <textarea id="komen" name="komen" rows="5" cols="30"></textarea>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td colspan="3" align="right">
+            <button onclick="window.location.href='identitas.html'">
+              Back
+            </button>
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

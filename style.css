@@ -1,0 +1,26 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  height: 100vh; /* Mengatur tinggi body untuk memusatkan konten secara vertikal */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Memusatkan konten secara vertikal */
+  align-items: center; /* Memusatkan konten secara horizontal */
+  height: 70%; /* Menggunakan tinggi penuh dari body */
+}
+
+table {
+  margin: 0 auto; /* Memusatkan tabel secara horizontal */
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
